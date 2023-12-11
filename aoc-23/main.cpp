@@ -6,9 +6,9 @@
 //
 
 #include <iostream>
-#include "01-01.hpp"
+#include "01-02.hpp"
 
 int main(int argc, const char * argv[]) {
-    task01_01();
+    task01_02();
     return 0;
 }
