@@ -14,6 +14,7 @@
 		BBC13D862B27C0AD009AEB25 /* strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC13D842B27C0AD009AEB25 /* strings.cpp */; };
 		BBC13D892B27C0E2009AEB25 /* 02-01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC13D872B27C0E2009AEB25 /* 02-01.cpp */; };
 		BBC13D8B2B27C11A009AEB25 /* 02-input.in in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBC13D8A2B27C102009AEB25 /* 02-input.in */; };
+		BBC13D8E2B27C19F009AEB25 /* 02-02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC13D8C2B27C19F009AEB25 /* 02-02.cpp */; };
 		BBE5D5312B27B929008C19BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBE5D5302B27B929008C19BA /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,8 @@
 		BBC13D872B27C0E2009AEB25 /* 02-01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02-01.cpp"; sourceTree = "<group>"; };
 		BBC13D882B27C0E2009AEB25 /* 02-01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "02-01.hpp"; sourceTree = "<group>"; };
 		BBC13D8A2B27C102009AEB25 /* 02-input.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = "02-input.in"; sourceTree = "<group>"; };
+		BBC13D8C2B27C19F009AEB25 /* 02-02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02-02.cpp"; sourceTree = "<group>"; };
+		BBC13D8D2B27C19F009AEB25 /* 02-02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "02-02.hpp"; sourceTree = "<group>"; };
 		BBE5D52D2B27B929008C19BA /* aoc-23 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "aoc-23"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE5D5302B27B929008C19BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +91,8 @@
 				BBC13D802B27C068009AEB25 /* 02-helpers.hpp */,
 				BBC13D872B27C0E2009AEB25 /* 02-01.cpp */,
 				BBC13D882B27C0E2009AEB25 /* 02-01.hpp */,
+				BBC13D8C2B27C19F009AEB25 /* 02-02.cpp */,
+				BBC13D8D2B27C19F009AEB25 /* 02-02.hpp */,
 			);
 			path = 02;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 				BBC13D892B27C0E2009AEB25 /* 02-01.cpp in Sources */,
 				BBC13D7D2B27BFB3009AEB25 /* 01-02.cpp in Sources */,
 				BBC13D812B27C068009AEB25 /* 02-helpers.cpp in Sources */,
+				BBC13D8E2B27C19F009AEB25 /* 02-02.cpp in Sources */,
 				BBE5D5312B27B929008C19BA /* main.cpp in Sources */,
 				BBC13D772B27BE8D009AEB25 /* 01-01.cpp in Sources */,
 				BBC13D862B27C0AD009AEB25 /* strings.cpp in Sources */,
