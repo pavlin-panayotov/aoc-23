@@ -6,9 +6,9 @@
 //
 
 #include <iostream>
+#include "01-01.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    task01_01();
     return 0;
 }
