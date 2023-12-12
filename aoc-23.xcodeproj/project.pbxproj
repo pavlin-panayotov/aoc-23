@@ -15,6 +15,10 @@
 		BBC13D892B27C0E2009AEB25 /* 02-01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC13D872B27C0E2009AEB25 /* 02-01.cpp */; };
 		BBC13D8B2B27C11A009AEB25 /* 02-input.in in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBC13D8A2B27C102009AEB25 /* 02-input.in */; };
 		BBC13D8E2B27C19F009AEB25 /* 02-02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC13D8C2B27C19F009AEB25 /* 02-02.cpp */; };
+		BBC13D922B27C266009AEB25 /* 03-01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC13D902B27C266009AEB25 /* 03-01.cpp */; };
+		BBC13D942B27C2AE009AEB25 /* 03-input.in in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBC13D932B27C26A009AEB25 /* 03-input.in */; };
+		BBE5A4E52B28F36A00B54F02 /* 03-02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBE5A4E32B28F36A00B54F02 /* 03-02.cpp */; };
+		BBE5A4E82B28F3FD00B54F02 /* 03-helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBE5A4E62B28F3FC00B54F02 /* 03-helpers.cpp */; };
 		BBE5D5312B27B929008C19BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBE5D5302B27B929008C19BA /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +29,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				BBC13D942B27C2AE009AEB25 /* 03-input.in in CopyFiles */,
 				BBC13D8B2B27C11A009AEB25 /* 02-input.in in CopyFiles */,
 				BBC13D7A2B27BF3E009AEB25 /* 01-input.in in CopyFiles */,
 			);
@@ -56,6 +61,13 @@
 		BBC13D8A2B27C102009AEB25 /* 02-input.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = "02-input.in"; sourceTree = "<group>"; };
 		BBC13D8C2B27C19F009AEB25 /* 02-02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02-02.cpp"; sourceTree = "<group>"; };
 		BBC13D8D2B27C19F009AEB25 /* 02-02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "02-02.hpp"; sourceTree = "<group>"; };
+		BBC13D902B27C266009AEB25 /* 03-01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "03-01.cpp"; sourceTree = "<group>"; };
+		BBC13D912B27C266009AEB25 /* 03-01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "03-01.hpp"; sourceTree = "<group>"; };
+		BBC13D932B27C26A009AEB25 /* 03-input.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = "03-input.in"; sourceTree = "<group>"; };
+		BBE5A4E32B28F36A00B54F02 /* 03-02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "03-02.cpp"; sourceTree = "<group>"; };
+		BBE5A4E42B28F36A00B54F02 /* 03-02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "03-02.hpp"; sourceTree = "<group>"; };
+		BBE5A4E62B28F3FC00B54F02 /* 03-helpers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "03-helpers.cpp"; sourceTree = "<group>"; };
+		BBE5A4E72B28F3FC00B54F02 /* 03-helpers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "03-helpers.hpp"; sourceTree = "<group>"; };
 		BBE5D52D2B27B929008C19BA /* aoc-23 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "aoc-23"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE5D5302B27B929008C19BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +118,20 @@
 			path = utils;
 			sourceTree = "<group>";
 		};
+		BBC13D8F2B27C250009AEB25 /* 03 */ = {
+			isa = PBXGroup;
+			children = (
+				BBC13D932B27C26A009AEB25 /* 03-input.in */,
+				BBC13D902B27C266009AEB25 /* 03-01.cpp */,
+				BBC13D912B27C266009AEB25 /* 03-01.hpp */,
+				BBE5A4E32B28F36A00B54F02 /* 03-02.cpp */,
+				BBE5A4E42B28F36A00B54F02 /* 03-02.hpp */,
+				BBE5A4E62B28F3FC00B54F02 /* 03-helpers.cpp */,
+				BBE5A4E72B28F3FC00B54F02 /* 03-helpers.hpp */,
+			);
+			path = 03;
+			sourceTree = "<group>";
+		};
 		BBE5D5242B27B929008C19BA = {
 			isa = PBXGroup;
 			children = (
@@ -125,9 +151,10 @@
 		BBE5D52F2B27B929008C19BA /* aoc-23 */ = {
 			isa = PBXGroup;
 			children = (
-				BBC13D822B27C098009AEB25 /* utils */,
+				BBC13D8F2B27C250009AEB25 /* 03 */,
 				BBC13D7E2B27C043009AEB25 /* 02 */,
 				BBC13D742B27BE6E009AEB25 /* 01 */,
+				BBC13D822B27C098009AEB25 /* utils */,
 				BBE5D5302B27B929008C19BA /* main.cpp */,
 			);
 			path = "aoc-23";
@@ -194,8 +221,11 @@
 				BBC13D892B27C0E2009AEB25 /* 02-01.cpp in Sources */,
 				BBC13D7D2B27BFB3009AEB25 /* 01-02.cpp in Sources */,
 				BBC13D812B27C068009AEB25 /* 02-helpers.cpp in Sources */,
+				BBC13D922B27C266009AEB25 /* 03-01.cpp in Sources */,
 				BBC13D8E2B27C19F009AEB25 /* 02-02.cpp in Sources */,
 				BBE5D5312B27B929008C19BA /* main.cpp in Sources */,
+				BBE5A4E82B28F3FD00B54F02 /* 03-helpers.cpp in Sources */,
+				BBE5A4E52B28F36A00B54F02 /* 03-02.cpp in Sources */,
 				BBC13D772B27BE8D009AEB25 /* 01-01.cpp in Sources */,
 				BBC13D862B27C0AD009AEB25 /* strings.cpp in Sources */,
 			);
