@@ -1,21 +1,22 @@
 //
-//  04-01.cpp
+//  04-02.cpp
 //  aoc-23
 //
 //  Created by Pavlin Panayotov on 13.12.23.
 //
 
-#include "04-01.hpp"
+#include "04-02.hpp"
 #include <fstream>
 #include <iostream>
 #include <vector>
 #include <set>
 #include <cmath>
+#include <map>
 #include "./04-helpers.hpp"
 
 using namespace std;
 
-void task04_01() {
+void task04_02() {
     ifstream file("04-input.in");
     
     if (!file.is_open()) {
@@ -25,15 +26,26 @@ void task04_01() {
     
     int sum = 0;
     string line;
+    int gameNumber = 1;
+    map<int, int> cardsByGame;
     
     while(getline(file, line)) {
 //        cout << line << endl;
+        int cardsCount = cardsByGame[gameNumber] + 1;
         
         Game game(line);
-        sum += game.score();
+        
+//        cout << game.matches << " " << cardsCount << endl;
+        
+        for (int i = gameNumber + 1; i < gameNumber + game.matches + 1; ++i) {
+            cardsByGame[i] = cardsByGame[i] + cardsCount;
+        }
+        
+        sum += cardsCount;
+        
+        ++gameNumber;
     }
     
-    // sum = 25010
+    // sum = 9924412
     cout << "Sum: " << sum << endl;
 }
-
